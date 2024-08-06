@@ -24,7 +24,7 @@ export default function Home() {
   }
   const fnClick=()=>{
     const isPrime=fnCheckPrime(no);
-    setResult(isPrime ? 'Prime':'Not Prime')
+    setResult(isPrime ? 'This is Prima No':'Not Prime this is not')
   }
   
   return (
